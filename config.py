@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather, --⚠️ REQUIRED--
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7003119826:AAHxriC6HvMACpUdY2h3Yv1ij7WvG6pT2d4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6846285141:AAGm5DmUHrPkdqh7FWRQr_SdU0aiOMfGHmo")
 
 #Your API ID from my.telegram.org, --⚠️ REQUIRED--
 APP_ID = int(os.environ.get("APP_ID", "20239261"))
@@ -15,7 +15,7 @@ APP_ID = int(os.environ.get("APP_ID", "20239261"))
 API_HASH = os.environ.get("API_HASH", "af61dab399ed3220a3a81570b56bd29d")
 
 #Your db channel Id --⚠️ REQUIRED--
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002066420558"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002215317742"))
 
 #OWNER ID --⚠️ REQUIRED--
 OWNER_ID = int(os.environ.get("OWNER_ID", "1357978966"))
@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "adbotv2XlightXtest")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://telegra.ph/file/5094c60f1122bbae9b3d9.jpg https://telegra.ph/file/463501fe337f02dc034ba.jpg https://telegra.ph/file/ad3486519fd59f73f7f46.jpg https://telegra.ph/file/8d4867e3d7d8e8db70f73.jpg https://telegra.ph/file/3b8897b58d83a512a56ac.jpg https://telegra.ph/file/11115f9a5c035e2d90bd8.jpg https://telegra.ph/file/a292bc4b99f9a1854f6d7.jpg https://telegra.ph/file/94aac0f8141dc44eadfc6.jpg https://telegra.ph/file/1f8d855fb7a70b4fcaf68.jpg https://telegra.ph/file/849b567f8072117353c5c.jpg https://telegra.ph/file/e8555407480d52ac1a6b7.jpg https://telegra.ph/file/2a301e221bf3c800bb48c.jpg https://telegra.ph/file/faefbf4a710eb05647d9c.jpg https://telegra.ph/file/6219c9d5edbeecfd3a45e.jpg https://telegra.ph/file/db1f952a28b0aa53bedb1.jpg https://telegra.ph/file/32797f53236187e9f5e1f.jpg https://telegra.ph/file/f1038a205b9db5018f1aa.jpg https://telegra.ph/file/88fb9950df687ff6caa58.jpg https://telegra.ph/file/63855c358fdd9a02c717c.jpg https://telegra.ph/file/34fb4b74d70bfc2e9d59c.jpg https://telegra.ph/file/e92c0b6efb0a77b316e04.jpg https://telegra.ph/file/2f3adfb321584ad39fd15.jpg")).split() 
+PICS = (os.environ.get("PICS", "https://vault.pictures/p/1006408b848f4b3f86be4f77e2a6361d https://vault.pictures/p/c3881749cf924e17a50f1b877e93b544 https://vault.pictures/p/50761ace57644f9f8eccdbb1a741e255 https://vault.pictures/p/a29f091e7fcc4e8ea3021822a8360ced https://vault.pictures/p/e6bda085615344f894c8a1f85ec338a6 https://vault.pictures/p/13615e4a7b224d258813200c24c0983e https://vault.pictures/p/8dbb100447dd446da85801dae30e715f https://vault.pictures/p/9d7debd0df2f46a29b085abc0ef4455f https://vault.pictures/p/48388e63b06c4197a4212020a62feed5 https://vault.pictures/p/26cc403b0d384d5186ca96100560fa63 ")).split() 
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
